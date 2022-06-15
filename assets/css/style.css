@@ -4,8 +4,10 @@
 
 header {
     position: fixed;
+    margin: auto;
     z-index: 1;
     width: 100%;
+    height: 25px;
     background-color: rgb(245, 163, 163);
     border-top: 5px solid rgb(99, 11, 5);
     border-bottom: 5px solid rgb(99, 11, 5);
@@ -21,14 +23,18 @@ body {
     background-color: antiquewhite;
 }
 
-footer {
-    position:fixed;
-    clear: both;
-    width: 100%;
-    height: 30px;
-    background-color: darkgoldenrod;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+.h1 {
+    font-size: 32;
 }
+
+form {
+    display:block;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: darkgoldenrod;
+    text-align: center;
+} 
