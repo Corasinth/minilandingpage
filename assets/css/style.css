@@ -6,9 +6,9 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    background-color: lightgreen;
-    border-top: 10px solid darkgoldenrod;
-    border-bottom: 10px solid darkgoldenrod;
+    background-color: rgb(245, 163, 163);
+    border-top: 5px solid rgb(99, 11, 5);
+    border-bottom: 5px solid rgb(99, 11, 5);
     top: 0;
 }
 
@@ -17,8 +17,8 @@ header {
     color: white;
 }
 
-.header1 {
-    text-align:center;
+body {
+    background-color: antiquewhite;
 }
 
 footer {
