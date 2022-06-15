@@ -4,7 +4,6 @@
 
 header {
     position: fixed;
-    margin: auto;
     z-index: 1;
     width: 100%;
     height: 25px;
@@ -17,18 +16,24 @@ header {
 .externallinks {
     text-align: right;
     color: white;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+.miniheading {
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 body {
     background-color: antiquewhite;
+    margin:0;
+    padding:0;
 }
 
 .h1 {
     font-size: 32;
-}
-
-form {
-    display:block;
 }
 
 footer {
